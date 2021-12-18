@@ -1,0 +1,10 @@
+^C:\GIT\10-LABA\BUILD\CMAKEFILES\E97ABC635B4E5275EDDAF91149CB562C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/10-laba -BC:/Git/10-laba/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/10-laba/Build/sfml_sample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

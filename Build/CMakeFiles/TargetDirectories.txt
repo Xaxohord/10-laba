@@ -1,0 +1,3 @@
+C:/Git/10-laba/Build/CMakeFiles/sfml_sample.dir
+C:/Git/10-laba/Build/CMakeFiles/ALL_BUILD.dir
+C:/Git/10-laba/Build/CMakeFiles/ZERO_CHECK.dir
